@@ -2,7 +2,7 @@
 *::before,
 *::after{
     margin: 0px;
-    padding: 0px;
+    padding: 1rem;
     box-sizing: border-box;
 }
 
@@ -11,7 +11,8 @@
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
+    background-color: bisque;
 }
 
 input[type="number"], button {
@@ -22,7 +23,7 @@ input[type="number"], button {
 }
 
 button {
-    background-color: #e338ad;
+    background-color: maroon;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -30,5 +31,5 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: brown;
 }

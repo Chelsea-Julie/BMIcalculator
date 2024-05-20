@@ -13,7 +13,7 @@ function calculateBMI() {
     } else if (bmi >= 25 && bmi < 30) {
         bmiCategory = 'Overweight';
     } else {
-        bmiCategory = 'Obesity';
+        bmiCategory = 'Obese';
     }
 
     var result = 'Your BMI is ' + bmi.toFixed(2) + ', which means you are ' + bmiCategory + '.';
